@@ -1,0 +1,49 @@
+Nugets:
+Web-api
+	MediatR.Extensions.Microsoft.DependencyInjection
+	Swashbuckle.AspNetCore
+Application layer
+	AutoMapper	
+Domain
+	FluentValidation.AspNetCore
+	MediatR
+Data	
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore.SqlServer
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.Extensions.Configuration
+	Microsoft.Extensions.Configuration.FileExtensions
+	Microsoft.Extensions.Configuration.Json
+IOC
+	Microsoft.Extensions.DependencyInjection
+	Install-Package Microsoft.AspNetCore.Http 
+	
+	
+//deve-se crair um appsetting no project da e colcaor para copy always
+//enable-migration
+//if error set project data to satartup project
+
+
+///TODO
+criar uma chamada no appcçlicatopn to get api from spotify
+crair no crosscruting infra a implemntação odo serviço do spot         ify
+
+link uteis
+https://developer.spotify.com/console/get-category-playlists/?category_id=pop&country=&limit=50&offset=0
+
+
+postman
+https://localhost:44385/api/sale/RegisterSale
+{
+	"id": "1",
+	"date":"2019-06-24",
+	"customerId": "0",
+	"items" :[{
+		"id":1,
+		"quantity":1,
+		"discId":1
+	}]
+		
+	}
+}
