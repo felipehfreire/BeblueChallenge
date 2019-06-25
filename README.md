@@ -5,6 +5,10 @@ Desafio técnico - Engenheiro back-end
 O projeto foi escrito em C# utilizando .Net Core;
 Versão do SDK:2.2.300
 
+# API Documentation
+(URl Raiz)/swagger/index.html
+Ex: https://localhost:44385/swagger/index.html
+
 # Build
 Basta clonar o projeto, e abrir com Visual Studio 2017+ e realizar bulid;
 
